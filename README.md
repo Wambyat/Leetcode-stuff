@@ -1,4 +1,4 @@
-# Leetcode-shit
+# Leetcode programs
 programs ive submitted to leet
 
  these programs are unlikely to run as is. 
