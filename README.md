@@ -1,6 +1,3 @@
 # Leetcode programs
-programs ive submitted to leet
-
- these programs are unlikely to run as is. 
-	
- they are created to be submitted to leetcode's submission thingy
+Programs I've submitted to leetcode.
+They are created to be submitted to leetcode's submission portal.
