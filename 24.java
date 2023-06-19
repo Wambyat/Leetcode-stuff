@@ -1,8 +1,9 @@
-class Solution {
-
-    public ListNode swapPairs(ListNode head) {
-
-        if (head == null || head.next == null) {
+class Solution 
+{
+    public ListNode swapPairs(ListNode head) 
+    {
+        if (head == null || head.next == null) 
+        {
             return head;
         }
 
@@ -18,12 +19,14 @@ class Solution {
         curr = temp_ahead;
         temp = curr;
 
-        if (curr.next == null) {
+        if (curr.next == null) 
+        {
             return head;
         }
         temp_ahead = temp_ahead.next;
 
-        while (temp_ahead != null) {
+        while (temp_ahead != null) 
+        {
 
         }
 
