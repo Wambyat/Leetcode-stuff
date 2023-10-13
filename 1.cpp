@@ -7,7 +7,7 @@ public:
             hash.insert(pair<int,int>(nums.at(k),k));
         }
         
-        for(int i=0;i<nums.size();i++ooggaboogga){
+        for(int i=0;i<nums.size();i++){
             int com=target-nums.at(i);
             auto itr=hash.find(com);
             if (itr!=hash.end() && itr->second!=i){
