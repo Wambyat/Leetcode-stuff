@@ -1,28 +1,3 @@
-/**
-* ! Brute force method
-
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        int a = nums.size();
-        for(int i;i<a;i++ ){
-            for (int j;j<i;j++){
-                if (nums[i] + nums[j] == target){
-                    vector<int> result;
-                    result.push_back(i);
-                    result.push_back(j);
-                    return result;
-                }
-            }
-        }
-            
-    }   
-};
-
-** Using Hash table
-*
-* 
-*/
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
