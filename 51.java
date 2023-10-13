@@ -1,5 +1,5 @@
 import java.util.*;
-
+// ignore me testing :)
 class Solution {
     public List< List<String> > solveNQueens(int n) {
         List< List<String> > a = new ArrayList<>();
